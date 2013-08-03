@@ -13735,6 +13735,14 @@ Source: www.kingbright.com</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
+<part name="SV2" library="pinhead" deviceset="PINHD-2X13" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="GND16" library="supply1" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
+<part name="P+5" library="supply1" deviceset="VCC" device=""/>
+<part name="P+6" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13780,6 +13788,14 @@ Source: www.kingbright.com</description>
 <instance part="GND13" gate="1" x="22.86" y="147.32" rot="R180"/>
 <instance part="GND14" gate="1" x="15.24" y="147.32" rot="R180"/>
 <instance part="P+4" gate="VCC" x="20.32" y="121.92" rot="R180"/>
+<instance part="SV2" gate="A" x="78.74" y="144.78" rot="R90"/>
+<instance part="GND15" gate="1" x="93.98" y="134.62"/>
+<instance part="GND16" gate="1" x="73.66" y="134.62"/>
+<instance part="GND17" gate="1" x="68.58" y="157.48" rot="R180"/>
+<instance part="GND18" gate="1" x="78.74" y="157.48" rot="R180"/>
+<instance part="GND19" gate="1" x="86.36" y="157.48" rot="R180"/>
+<instance part="P+5" gate="VCC" x="63.5" y="134.62" rot="R180"/>
+<instance part="P+6" gate="VCC" x="83.82" y="134.62" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -13804,6 +13820,16 @@ Source: www.kingbright.com</description>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <pinref part="SV1" gate="A" pin="17"/>
 <wire x1="20.32" y1="124.46" x2="20.32" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
+<pinref part="SV2" gate="A" pin="1"/>
+<wire x1="63.5" y1="137.16" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<pinref part="SV2" gate="A" pin="17"/>
+<wire x1="83.82" y1="137.16" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13883,6 +13909,31 @@ Source: www.kingbright.com</description>
 <pinref part="SV1" gate="A" pin="14"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="15.24" y1="139.7" x2="15.24" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="SV2" gate="A" pin="9"/>
+<wire x1="73.66" y1="137.16" x2="73.66" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="SV2" gate="A" pin="25"/>
+<wire x1="93.98" y1="137.16" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="SV2" gate="A" pin="20"/>
+<wire x1="86.36" y1="154.94" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="SV2" gate="A" pin="14"/>
+<wire x1="78.74" y1="154.94" x2="78.74" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="SV2" gate="A" pin="6"/>
+<wire x1="68.58" y1="154.94" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
