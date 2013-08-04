@@ -13741,6 +13741,8 @@ Source: www.kingbright.com</description>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
+<part name="P+5" library="supply1" deviceset="VCC" device=""/>
+<part name="P+6" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13792,6 +13794,8 @@ Source: www.kingbright.com</description>
 <instance part="GND17" gate="1" x="68.58" y="157.48" rot="R180"/>
 <instance part="GND18" gate="1" x="78.74" y="157.48" rot="R180"/>
 <instance part="GND19" gate="1" x="86.36" y="157.48" rot="R180"/>
+<instance part="P+5" gate="VCC" x="63.5" y="134.62" rot="R180"/>
+<instance part="P+6" gate="VCC" x="83.82" y="134.62" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -13816,6 +13820,16 @@ Source: www.kingbright.com</description>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <pinref part="SV1" gate="A" pin="17"/>
 <wire x1="20.32" y1="124.46" x2="20.32" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
+<pinref part="SV2" gate="A" pin="1"/>
+<wire x1="63.5" y1="137.16" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<pinref part="SV2" gate="A" pin="17"/>
+<wire x1="83.82" y1="137.16" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -14011,6 +14025,13 @@ Source: www.kingbright.com</description>
 <wire x1="2.54" y1="147.32" x2="0" y2="147.32" width="0.1524" layer="91"/>
 <junction x="0" y="147.32"/>
 <junction x="-22.86" y="99.06"/>
+<wire x1="0" y1="147.32" x2="0" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="0" y1="160.02" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="A" pin="2"/>
+<wire x1="63.5" y1="149.86" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="A" pin="4"/>
+<wire x1="66.04" y1="149.86" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="160.02" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
