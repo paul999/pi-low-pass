@@ -8,3 +8,16 @@ http://nl.farnell.com/fischer-elektronik/bl1-36z/header-socket-2-54mm-36way/dp/9
 http://nl.farnell.com/te-connectivity/5-826936-0/header-2-way/dp/1822162 SV1 (2 stuks)
 http://nl.farnell.com/texas-instruments/sn74hc14nsr/ic-hex-inverter-schmitt-trigger/dp/7455513 IC1 (25 stuks)
 http://nl.farnell.com/texas-instruments/lm358pw/op-amp-dual-low-power-smd-tssop8/dp/8389250?Ntt=LM358PW U1 (25 stuks)
+
+
+http://nl.rs-online.com/web/p/visible-leds/4663813/ Led1, Led2 
+http://nl.rs-online.com/web/p/aluminium-capacitors/7423536/ C1
+http://nl.rs-online.com/web/p/ceramic-single-layer-capacitors/7587412/ C2, C3 (Of http://nl.rs-online.com/web/p/ceramic-multilayer-capacitors/2644236/ ???) 
+http://nl.rs-online.com/web/p/surface-mount-fixed-resistors/7408997/ R2
+http://nl.rs-online.com/web/p/surface-mount-fixed-resistors/2230540/ R1
+http://nl.rs-online.com/web/p/surface-mount-fixed-resistors/2230376/ R3, R4
+http://nl.rs-online.com/web/p/pcb-sockets/2304893/ JP1, JP2, JP3
+http://nl.rs-online.com/web/p/pcb-headers/6812310/ SV1
+http://nl.rs-online.com/web/p/schmitt-trigger-inverters/3332899/ IC1
+http://nl.rs-online.com/web/p/operational-amplifiers/6610543/ U1
+
