@@ -16,8 +16,8 @@ The PCB is created with Eagle, and uses primarly SMD components to reduce the si
 
 Photos of the PCB
 ===========
-![Partly soldered](blob/master/photos/pi-low-pass-IMG_5269-130906.jpg?raw=true)
+![Partly soldered](/photos/pi-low-pass-IMG_5269-130906.jpg?raw=true)
 
-![Front side](blob/master/photos/pi-low-pass-IMG_5270-130906.jpg?raw=true)
+![Front side](/photos/pi-low-pass-IMG_5270-130906.jpg?raw=true)
 
-![Back side](blob/master/photos/pi-low-pass-IMG_5271-130906.jpg?raw=true)
+![Back side](/photos/pi-low-pass-IMG_5271-130906.jpg?raw=true)
