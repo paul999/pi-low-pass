@@ -13,3 +13,11 @@ The PCB, as is in the repo, has currently not tested, and can contain mistakes. 
 PCB
 ===========
 The PCB is created with Eagle, and uses primarly SMD components to reduce the size of the PCB. As far I can see, the source eagle files are XML. If you want to contribute a patch to these PCBs, please create a pull request for your changes.
+
+Photos of the PCB
+===========
+![Partly soldered](blob/master/photos/pi-low-pass-IMG_5269-130906.jpg?raw=true)
+
+![Front side](blob/master/photos/pi-low-pass-IMG_5270-130906.jpg?raw=true)
+
+![Back side](blob/master/photos/pi-low-pass-IMG_5271-130906.jpg?raw=true)
